@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json", "Json\Json.csproj", "{77770569-35B7-41CD-9313-0E5BDB8AB4FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xml", "Xml\Xml.csproj", "{66DC74FA-188B-49C2-A943-247CDA87BE90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{77770569-35B7-41CD-9313-0E5BDB8AB4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77770569-35B7-41CD-9313-0E5BDB8AB4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77770569-35B7-41CD-9313-0E5BDB8AB4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66DC74FA-188B-49C2-A943-247CDA87BE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DC74FA-188B-49C2-A943-247CDA87BE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DC74FA-188B-49C2-A943-247CDA87BE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DC74FA-188B-49C2-A943-247CDA87BE90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
