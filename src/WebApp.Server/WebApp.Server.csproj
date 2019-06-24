@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Json\Json.csproj" />
     <ProjectReference Include="..\WebApp.Client\WebApp.Client.csproj" />
     <ProjectReference Include="..\WebApp.Shared\WebApp.Shared.csproj" />
   </ItemGroup>
