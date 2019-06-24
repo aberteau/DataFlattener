@@ -1,6 +1,4 @@
-﻿using DataFlattener.Core;
-
-namespace DataFlattener.TestConsoleApp
+﻿namespace DataFlattener.Core
 {
     public class DataTableMapFactory
     {
