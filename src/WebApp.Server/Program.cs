@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 
-namespace WebApp.Server
+namespace DataFlattener.WebApp.Server
 {
     public class Program
     {

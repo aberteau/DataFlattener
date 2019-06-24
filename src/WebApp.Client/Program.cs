@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Blazor.Hosting;
 
-namespace WebApp.Client
+namespace DataFlattener.WebApp.Client
 {
     public class Program
     {

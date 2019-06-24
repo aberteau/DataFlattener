@@ -1,11 +1,11 @@
-﻿using WebApp.Shared;
+﻿using DataFlattener.WebApp.Shared;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApp.Server.Controllers
+namespace DataFlattener.WebApp.Server.Controllers
 {
     [Route("api/[controller]")]
     public class SampleDataController : Controller

@@ -7,6 +7,8 @@
       https://dotnet.myget.org/F/blazor-dev/api/v3/index.json;
     </RestoreAdditionalProjectSources>
     <LangVersion>7.3</LangVersion>
+    <AssemblyName>DataFlattener.WebApp.Server</AssemblyName>
+    <RootNamespace>DataFlattener.WebApp.Server</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

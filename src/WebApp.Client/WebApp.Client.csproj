@@ -9,6 +9,8 @@
     </RestoreAdditionalProjectSources>
     <LangVersion>7.3</LangVersion>
     <RazorLangVersion>3.0</RazorLangVersion>
+    <AssemblyName>DataFlattener.WebApp.Client</AssemblyName>
+    <RootNamespace>DataFlattener.WebApp.Client</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

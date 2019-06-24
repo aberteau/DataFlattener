@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json.Serialization;
 using System.Linq;
 
-namespace WebApp.Server
+namespace DataFlattener.WebApp.Server
 {
     public class Startup
     {

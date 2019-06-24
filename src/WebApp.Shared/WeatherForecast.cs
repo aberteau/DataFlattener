@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WebApp.Shared
+namespace DataFlattener.WebApp.Shared
 {
     public class WeatherForecast
     {
