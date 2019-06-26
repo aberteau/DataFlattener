@@ -5,7 +5,8 @@ Flatten deeply nested JSON or XML objects using XPath or JsonPath
 Target Platform : .Net Standard 2.0 / .NET Core 3.0
 
 ## Example
-### Input
+### JSON Data Flattening
+#### Input
 ```json
 [
   {
@@ -43,7 +44,7 @@ Target Platform : .Net Standard 2.0 / .NET Core 3.0
 ]
 ```
 (See DataSamples/Json/sample01.json)
-### Mapping
+#### Mapping
 |DataSourcePath|Name
 |------|---|
 |id|id|
@@ -56,7 +57,7 @@ Target Platform : .Net Standard 2.0 / .NET Core 3.0
 |range.end.y|range_end_y|
 
 (See DataTableMapFactory.CreateTestMap() in DataFlattener.Core Project)
-### Output
+#### Output
 ```json
 [
   {
@@ -81,6 +82,9 @@ Target Platform : .Net Standard 2.0 / .NET Core 3.0
   }
 ]
 ```
+
+### XML Data Flattening
+(Work In Progress)
 
 ## Projects
 
