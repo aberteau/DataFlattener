@@ -2,6 +2,7 @@
 using System.Data;
 using System.IO;
 using DataFlattener.Core;
+using DataFlattener.Core.Serialization.Json;
 
 namespace DataFlattener.TestConsoleApp
 {
@@ -18,6 +19,9 @@ namespace DataFlattener.TestConsoleApp
             string json = File.ReadAllText(jsonFilePath);
 
             DataTableMap dataTableMap = DataTableMapFactory.CreateTestMap();
+            string jsonMapOutputFilePath = GetFilePath(outputPath, "map.json");
+            string jsonMapOutput = Serializer.Serialize(dataTableMap.Columns);
+            File.WriteAllText(jsonMapOutputFilePath, jsonMapOutput);
 
             Json.DataMapper dataMapper = new Json.DataMapper();
             DataTable dataTable = dataMapper.ToDataTable(json, dataTableMap);

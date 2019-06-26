@@ -60,6 +60,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Core.Serialization.Json\Core.Serialization.Json.csproj">
+      <Project>{A8CCE820-F9D2-4169-86D8-66882085F06E}</Project>
+      <Name>Core.Serialization.Json</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Core\Core.csproj">
       <Project>{7631B341-4FD8-4E11-8220-A1222C94235B}</Project>
       <Name>Core</Name>
