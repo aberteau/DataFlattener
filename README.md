@@ -45,16 +45,16 @@ Target Platform : .Net Standard 2.0 / .NET Core 3.0
 ```
 (See DataSamples/Json/sample01.json)
 #### Mapping
-|DataSourcePath|Name
-|------|---|
-|id|id|
-|name|name|
-|range.start.page|range_start_page|
-|range.start.x|range_start_x|
-|range.start.y|range_start_y|
-|range.end.page|range_end_page|
-|range.end.x|range_end_x|
-|range.end.y|range_end_y|
+|DataSourcePath|Name|DataType
+|------|---|---|
+|id|id|String
+|name|name|String
+|range.start.page|range_start_page|Integer
+|range.start.x|range_start_x|Float
+|range.start.y|range_start_y|Float
+|range.end.page|range_end_page|Integer
+|range.end.x|range_end_x|Float
+|range.end.y|range_end_y|Float
 
 (See DataTableMapFactory.CreateTestMap() in DataFlattener.Core Project)
 #### Output
@@ -63,22 +63,22 @@ Target Platform : .Net Standard 2.0 / .NET Core 3.0
   {
     "id": "beedff9e-be8a-4d88-8da3-c610b8b12ca5",
     "name": "beedff9e-be8a-4d88-8da3-c610b8b12ca5",
-    "range_start_page": "1",
-    "range_start_x": "131,56",
-    "range_start_y": "430,481",
-    "range_end_page": "1",
-    "range_end_x": "483,798",
-    "range_end_y": "526,923"
+    "range_start_page": 1,
+    "range_start_x": 131.56,
+    "range_start_y": 430.481,
+    "range_end_page": 1,
+    "range_end_x": 483.798,
+    "range_end_y": 526.923
   },
   {
     "id": "3642c440-07d2-4cb3-a567-eb6223d4bff9",
     "name": "3642c440-07d2-4cb3-a567-eb6223d4bff9",
-    "range_start_page": "1",
-    "range_start_x": "612",
-    "range_start_y": "384,548",
-    "range_end_page": "1",
-    "range_end_x": "792",
-    "range_end_y": "526,548"
+    "range_start_page": 1,
+    "range_start_x": 612.0,
+    "range_start_y": 384.548,
+    "range_end_page": 1,
+    "range_end_x": 792.0,
+    "range_end_y": 526.548
   }
 ]
 ```

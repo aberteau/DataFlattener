@@ -8,10 +8,13 @@ namespace DataFlattener.Core
 
         public String Name { get; }
 
-        public DataColumnMap(string dataSourcePath, string name)
+        public DataType DataType { get; }
+
+        public DataColumnMap(string dataSourcePath, string name , DataType dataType)
         {
             DataSourcePath = dataSourcePath;
             Name = name;
+            DataType = dataType;
         }
     }
 }

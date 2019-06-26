@@ -13,7 +13,7 @@ namespace DataFlattener.TestConsoleApp
             string p = Path.Combine(currentDirectory, @"..\..\..\..\DataSamples\Json\sample01.json");
             String jsonFilePath = Path.GetFullPath(p);
 
-            string outputPath = @"E:\Temp\DataFlattener";
+            string outputPath = @"F:\Temp\DataFlattener";
             
             string json = File.ReadAllText(jsonFilePath);
 

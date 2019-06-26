@@ -19,7 +19,8 @@ namespace DataFlattener.Json
 
             foreach (DataColumnMap columnMap in tableMap.Columns)
             {
-                dataTable.Columns.Add(columnMap.Name);
+                Type systemType = DataTypeHelper.ToSystemType(columnMap.DataType);
+                dataTable.Columns.Add(columnMap.Name, systemType);
             }
 
             DataColumnMap[] columnMaps = tableMap.Columns.ToArray();
@@ -34,13 +35,13 @@ namespace DataFlattener.Json
 
         }
 
-        private static object[] ToValues(JToken orderToken, DataColumnMap[] columnMaps)
+        private static object[] ToValues(JToken itemToken, DataColumnMap[] columnMaps)
         {
             IList<object> values = new List<object>();
 
             foreach (DataColumnMap columnMap in columnMaps)
             {
-                JToken jToken = orderToken.SelectToken($"$.{columnMap.DataSourcePath}");
+                JToken jToken = itemToken.SelectToken($"$.{columnMap.DataSourcePath}");
                 values.Add(jToken);
             }
 
